@@ -4,7 +4,8 @@
 
 ## Nouveautés 
 - Ajout du système de notification pour les évènements et tâches
-- Ajout des widgets pour les évènements et tâches
+- Ajout des widgets pour les évènements et tâches (Reporté !)
+- Le calendrier de l'application prends désormais en charge le calendrier de l'appareil au lieu du compte Google de l'utilisateur.
 
 ## Amélioration
 - Les tâches et événement sont désormais modifiés dans l'application si on les modifies via un autre client.
