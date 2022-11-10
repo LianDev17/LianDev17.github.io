@@ -15,6 +15,3 @@
 ### Général
 - Modification de l'écran de bienvenue
 - Ajout de la possibilité d'afficher ou non les tâches / évènements selon les comptes.
-- L'application a été entièrement modifiée avec Jetpack compose.
-
-
