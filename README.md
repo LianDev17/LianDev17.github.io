@@ -1,14 +1,22 @@
-# LianDev
 
-Bienvenue sur mon ReadMe !
+LianDev
+
 Je me présente :
-Selyan, 18 ans, je suis actuellement en 1ère générale.
-Je suis passionné par l'informatique, notamment et surtout la programmation depuis plusieurs années. Je souhaite en faire mon métier.
+Selyan, j'ai 18 ans, je suis actuellement en 1ère générale.
+Je suis passionné par l'informatique, notamment et surtout par la programmation. Et ceux depuis plusieurs années.
+Je souhaite également en faire mon métier.
 
-Vous trouverez dans mes repositories ces projets:
+Projets
+
+Vous trouverez dans mes repositories ces projets :
 • Morpion (Python)
 • Algorithmes (Python)
 
-D'autres projets sont envisagés ou en développement :
+D'autres projets prévus en développement :
 • Material Calendar (App Android: Java, Kotlin)
 • Langage de Programmation (C, C++ -> Bison, Flex)
+
+
+$
+
+Un site est prévu pour remplacer ce ReadMe. (Prévu avec React pour le moment)
