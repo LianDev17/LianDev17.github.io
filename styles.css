@@ -16,6 +16,10 @@ h1 {
 	margin: 20px;
 }
 
+h1, h2, h3, h4, p, li {
+      color: #F2F3F4;
+}
+
 #description {
 	padding-left: 20px;
 }
@@ -45,6 +49,7 @@ nav ul li a {
 
 a {
   text-decoration: none;
+  color: #5628EE;
 }
 
 .projet {
