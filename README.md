@@ -1,6 +1,7 @@
 # Bienvenue sur mon Github
 
-Mon site est disponible [ici](liandev17.github.io/home.html) !
+Mon site est disponible [ici](https://liandev17.github.io/home.html) !
+Le site est actuellement optimisé pour Mobile (ou tablette), il le sera dans le futur pour des écrans plus grand.
 
 ## Mes Projets en cours
 - MyNotes,  Disponible sur [Google Play](https://play.google.com/store/apps/details?id=com.liandev.notes&hl=fr_CH&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dliandev17+mynotes)
