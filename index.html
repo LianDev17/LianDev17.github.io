@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LianDev Web page</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+    </head>
+    <script>
+        function changeTab(projectn, tabn) {
+            var projects = document.getElementsByClassName("project-card");
+            var tabs = document.getElementsByClassName("tab");
+
+            var i;
+            for (i = 0; i < projects.length; i++) {
+                projects[i].style.display = "none";
+            }
+
+            var j;
+            for (j = 0; j < tabs.length; j++) {
+                let tab = 'tab' + (j + 1)
+                document.getElementById(tab).style.color = tab == tabn ? '#f1f1f1' : 'darkgray';
+            }
+
+            document.getElementById(projectn).style.display = "block" 
+        }
+    </script>
+    <body>
+        <header>
+            <p>LianDev</p>
+            <nav>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle menu_button" style="visibility: hidden">
+                <label for="menu-toggle" class="hamburger" style="text-align: right;">
+                    <img width="40px" height="50px" src="./assets/menu.png" />
+                </label>
+                <ul class="menu">
+                    <a href="#me">Me</a>
+                    <a href="#projects">Projects</a>
+                    <li><a href="https://github.com/LianDev17">Github</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="part">
+                <div class="part1">
+                <div class="user">
+                    <span>Hi, I'm</span>
+                    <h2>LianDev</h2>
+                </div>
+                <div class="code">
+                    <span class="ca">&lt;</span>
+                    <span class="cb">/</span>
+                    <span class="cc">&gt;</span>
+                </div>
+                </div>
+            </section>
+            <section id="me" class="part part2">
+                <div>
+                    <h2>Who I am</h2>
+                    <p>I'm Selyan, a french 19 year old student in computer science.</p>
+                    <p>I have been programming for 5 years now, my favarites languages are C, C++, Java/Kotlin.</p>
+                    <h4>My socials</h4>
+                    <p>Discord : <a style="color: #5539cc" href="https://discord.gg/gTqcTfyx">Lian8165</a></p>
+                    <p>Github : <a style="color: #ffc45d" href="https://github.com/LianDev17">LianDev17</a></p>
+                </div>
+            </section>
+            <section id="projects" class="part part3">
+                <div class="section_content">
+                    <div class="section_title_des">
+                        <h3>My projects</h3>
+                        <p>Here you can see what I have done</p>
+                    </div>
+                    <div class="tabs">
+                        <div class="tabs_section">
+                            <p id="tab1" class="tab" onclick="changeTab('mynotes', 'tab1')">MyNotes</p>
+                            <p id="tab2" class="tab" onclick="changeTab('edeta', 'tab2')">Edeta</p>
+                        </div>
+                        <div class="project-card" id="mynotes">
+                            <div class="project-style projecta">
+                                <div class="title_des">
+                                    <h4>MyNotes</h4>
+                                    <p>Application de notes pour Android</p>
+                                </div>
+                                <div class="image_container">
+                                    <img class="project_img project_image_first" src="./assets/mynotes_screen.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card" style="display:none" id="edeta">
+                            <div class="project-style projectb">
+                                <div class="title_des">
+                                    <h4>Edeta</h3>
+                                    <p>Application d'emploi du temps pour le but informatique de l'ULCO pour Android</p>
+                                </div>
+                                <div class="image_container">
+                                    <img class="project_img project_image_first" src="./assets/edeta_screen.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </section>
+        </div>
+        <footer style="width:100%; height: 60px; padding: 20px; margin-top: 20px; ">
+            <div>
+                LianDev
+                This website is owned by LianDev, do not copy it.
+            </div>
+        </footer>
+    </body>
+</html>
